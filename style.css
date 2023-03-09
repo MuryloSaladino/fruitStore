@@ -1,0 +1,44 @@
+#logoDiv    {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content  {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+
+}
+
+#container  {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#fruitLogo {
+    height: 20vh;
+    box-sizing: border-box;
+}
+
+.textForFruits  {
+    font-size: 20px;
+    text-align: center;
+}
+
+.fruitContainer {
+    width: 14vw;
+    height: 7vh;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
